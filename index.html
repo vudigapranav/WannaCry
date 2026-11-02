@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WannaCry — an interactive, offline ransomware incident learning lab. Investigate a fictional incident. Practice a real response mindset.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="theme-color" content="#0b0c10">
+  <title>WannaCry — The Incident Lab</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="safety-strip"><span class="status-dot"></span><strong>SIMULATION ONLY</strong><span class="safety-detail">Fictional data. No real files, downloads, or network activity.</span><span class="offline-label">OFFLINE / BROWSER ONLY</span></div>
+  <header class="site-header">
+    <a class="brand" href="#overview" aria-label="WannaCry home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>WANNA<span>CRY</span></a>
+    <nav aria-label="Main navigation" id="nav"></nav>
+    <div class="header-actions"><button class="text-button presenter-toggle" data-action="presenter" aria-pressed="false"><span class="small-square" aria-hidden="true">▣</span> Lecturer mode</button><button class="icon-button" data-action="reset" aria-label="Reset simulation" title="Reset simulation">↻</button></div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer"><a class="footer-brand" href="#overview">WannaCry<span> / THE INCIDENT LAB</span></a><span>Learn the response. Change the outcome.</span><span class="footer-tag">A FICTIONAL EXERCISE · V1.0</span></footer>
+  <aside id="presenter" class="presenter-panel" aria-label="Lecturer controls" hidden></aside>
+  <div id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+</body>
+</html>

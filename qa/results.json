@@ -1,0 +1,98 @@
+{
+  "testedAt": "2026-10-28T01:39:59.495Z",
+  "browser": "Google Chrome / Playwright",
+  "mode": "file:// with browser context offline",
+  "results": [
+    {
+      "name": "Direct-file offline launch and landing page",
+      "status": "PASS"
+    },
+    {
+      "name": "Deep-link gating for investigation, response and report",
+      "status": "PASS"
+    },
+    {
+      "name": "File previews are harmless before an incident",
+      "status": "PASS"
+    },
+    {
+      "name": "Reading email and staging do not trigger an incident",
+      "status": "PASS"
+    },
+    {
+      "name": "Mock attachment requires an explicit confirmation",
+      "status": "PASS"
+    },
+    {
+      "name": "Timer pause, resume and expiration are harmless",
+      "status": "PASS"
+    },
+    {
+      "name": "Explorer folders, search, no-result state and locked preview",
+      "status": "PASS"
+    },
+    {
+      "name": "Investigation automatically contains fictional evidence",
+      "status": "PASS"
+    },
+    {
+      "name": "Cannot skip response steps; incorrect isolation is explained",
+      "status": "PASS"
+    },
+    {
+      "name": "Evidence gate requires every record",
+      "status": "PASS"
+    },
+    {
+      "name": "Remediation rejects deleting just the note",
+      "status": "PASS"
+    },
+    {
+      "name": "Access, backup and validation gates work in order",
+      "status": "PASS"
+    },
+    {
+      "name": "Final report records complete recovery and corrections",
+      "status": "PASS"
+    },
+    {
+      "name": "Restored file content and completed-step review",
+      "status": "PASS"
+    },
+    {
+      "name": "Reset cancel preserves record; confirm clears all progress",
+      "status": "PASS"
+    },
+    {
+      "name": "Lecturer path pauses timer and controls its pacing",
+      "status": "PASS"
+    },
+    {
+      "name": "Keyboard tabs and modal escape work",
+      "status": "PASS"
+    },
+    {
+      "name": "Persistent simulation indicator remains visible when scrolling",
+      "status": "PASS"
+    },
+    {
+      "name": "Responsive overview at 320, 390, 768 and 1440 widths",
+      "status": "PASS"
+    },
+    {
+      "name": "Mobile complete happy path and responsive application screens",
+      "status": "PASS"
+    },
+    {
+      "name": "Reload clears the in-memory exercise",
+      "status": "PASS"
+    },
+    {
+      "name": "No browser errors, external requests or attachment downloads",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "downloads": []
+}
